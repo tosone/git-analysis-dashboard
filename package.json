@@ -1,0 +1,41 @@
+{
+  "name": "git-analysis-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node app.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tosone/git-analysis-dashboard.git"
+  },
+  "author": "Tosone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tosone/git-analysis-dashboard/issues"
+  },
+  "homepage": "https://github.com/tosone/git-analysis-dashboard#readme",
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "koa": "^2.0.0",
+    "koa-convert": "^1.2.0",
+    "koa-router": "^5.4.0",
+    "koa-static": "^2.0.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "semantic-ui-less": "^2.1.8"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-3": "^6.5.0",
+    "babel-cli": "^6.8.0",
+    "nodemon": "^1.9.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node5",
+      "stage-3"
+    ]
+  }
+}
