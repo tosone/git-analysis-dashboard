@@ -10,4 +10,4 @@ export default (app) => {
 
   app.use(router.allowedMethods());
   app.use(router.routes());
-}
+};
