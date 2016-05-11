@@ -1,8 +1,13 @@
 import Router from 'koa-router';
+const router = Router();
 
-module.exports = (app) = {
-  var router = Router();
-  router.get('/users', async(ctx, next) => {
-    ctx.body = "succ";
+export default (app) => {
+  [
+    require('./users')
+  ].forEach((route)=>{
+    route(router);
   });
+
+  app.use(router.allowedMethods());
+  app.use(router.routes());
 }
