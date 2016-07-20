@@ -37,7 +37,7 @@
     "run-sequence": "^1.1.5",
     "semantic-ui": "^2.1.8",
     "semantic-ui-less": "^2.1.8",
-    "sequelize": "^3.23.1",
+    "sequelize": "3.23.6",
     "yamljs": "^0.2.7"
   },
   "devDependencies": {
